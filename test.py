@@ -1,0 +1,1 @@
+print("VS Code で Python 実行できたよ！")
