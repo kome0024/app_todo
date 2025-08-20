@@ -48,5 +48,15 @@ def delete(task_id):
         save_tasks(tasks)
     return redirect(url_for('index'))
 
+#エラーハンドリング
+#404エラー
+@app.errorhandler(404)
+def not_found(error):
+    return "ページが見つかりませんでした", 404
+#500エラー
+@app.errorhandler(500)
+def internal_error(error):
+    return "サーバー内部エラーが発生しました", 500
+
 if __name__ == '__main__':
     app.run(debug=True)
