@@ -8,15 +8,22 @@ TASK_FILE = 'tasks.json'
 
 #タスクをファイルから読み込む関数
 def load_tasks():
-    if os.path.exists(TASK_FILE):
-        with open(TASK_FILE, 'r', encoding='utf-8') as f:
-            return json.load(f)
-    return []
+    try:
+        if os.path.exists(TASK_FILE):
+            with open(TASK_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        return []
+    except Exception as e:
+        print(f"Error loading tasks: {e}")
+        return []
 
 #タスクをファイルに保存する関数
 def save_tasks(tasks):
-    with open(TASK_FILE, 'w', encoding='utf-8') as f:
-        json.dump(tasks, f, ensure_ascii=False, indent=4)
+    try:
+        with open(TASK_FILE, 'w', encoding='utf-8') as f:
+            json.dump(tasks, f, ensure_ascii=False, indent=4)
+    except Exception as e:
+        print(f"Error saving tasks: {e}")
 
 #初期化
 tasks = load_tasks()
