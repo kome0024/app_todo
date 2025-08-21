@@ -1,0 +1,92 @@
+2025-08-21 10:45:46,362 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 10:45:46,362 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 10:45:46,363 - INFO -  * Restarting with stat
+2025-08-21 10:45:46,621 - WARNING -  * Debugger is active!
+2025-08-21 10:45:46,625 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:46:06,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 10:46:06,886 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 10:46:06,887 - INFO -  * Restarting with stat
+2025-08-21 10:46:07,151 - WARNING -  * Debugger is active!
+2025-08-21 10:46:07,154 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:46:47,607 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:47] "GET / HTTP/1.1" 200 -
+2025-08-21 10:46:47,663 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:46:50,009 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:50] "GET / HTTP/1.1" 200 -
+2025-08-21 10:46:50,019 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:46:56,950 - INFO - É^ÉXÉNí«â¡: ÉvÉçÉOÉâÉ~ÉìÉO
+2025-08-21 10:46:56,952 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:56] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 10:46:56,954 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:56] "GET / HTTP/1.1" 200 -
+2025-08-21 10:46:56,963 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:48:08,797 - INFO - É^ÉXÉNí«â¡: ÉAÉvÉääJî≠
+2025-08-21 10:48:08,798 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 10:48:08,801 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:08] "GET / HTTP/1.1" 200 -
+2025-08-21 10:48:08,810 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:48:30,611 - INFO - É^ÉXÉNÇÃçÌèú: [{'name': 'ÉvÉçÉOÉâÉ~ÉìÉO', 'done': False}]
+2025-08-21 10:48:30,612 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:30] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2025-08-21 10:48:30,615 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:30] "GET / HTTP/1.1" 200 -
+2025-08-21 10:48:30,624 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:51:41,011 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:51:41,035 - INFO -  * Restarting with stat
+2025-08-21 10:51:41,305 - WARNING -  * Debugger is active!
+2025-08-21 10:51:41,308 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:51:43,350 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:51:43,377 - INFO -  * Restarting with stat
+2025-08-21 10:51:43,667 - WARNING -  * Debugger is active!
+2025-08-21 10:51:43,670 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:52:24,035 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:52:24,058 - INFO -  * Restarting with stat
+2025-08-21 10:52:24,324 - WARNING -  * Debugger is active!
+2025-08-21 10:52:24,327 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:52:27,374 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:52:27,397 - INFO -  * Restarting with stat
+2025-08-21 11:00:52,384 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 11:00:52,384 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 11:00:52,385 - INFO -  * Restarting with stat
+2025-08-21 11:00:52,650 - WARNING -  * Debugger is active!
+2025-08-21 11:00:52,655 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:01:02,996 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:02] "GET / HTTP/1.1" 200 -
+2025-08-21 11:01:03,058 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:01:07,146 - INFO - É^ÉXÉNí«â¡: É^ÉCÉsÉìÉO
+2025-08-21 11:01:07,146 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 11:01:07,148 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:07] "GET / HTTP/1.1" 200 -
+2025-08-21 11:01:07,157 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:02:28,493 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:28,519 - INFO -  * Restarting with stat
+2025-08-21 11:02:28,795 - WARNING -  * Debugger is active!
+2025-08-21 11:02:28,798 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:02:42,937 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:42,961 - INFO -  * Restarting with stat
+2025-08-21 11:02:43,236 - WARNING -  * Debugger is active!
+2025-08-21 11:02:43,240 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:02:48,305 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:48,329 - INFO -  * Restarting with stat
+2025-08-21 11:02:48,604 - WARNING -  * Debugger is active!
+2025-08-21 11:02:48,607 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:02:51,659 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:51,683 - INFO -  * Restarting with stat
+2025-08-21 11:03:07,356 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 11:03:07,356 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 11:03:07,357 - INFO -  * Restarting with stat
+2025-08-21 11:03:07,612 - WARNING -  * Debugger is active!
+2025-08-21 11:03:07,616 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:03:18,885 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:18] "GET / HTTP/1.1" 200 -
+2025-08-21 11:03:18,939 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:03:26,654 - INFO - „Çø„Çπ„ÇØ„ÅÆÂâäÈô§: [{'name': '„Éó„É≠„Ç∞„É©„Éü„É≥„Ç∞', 'done': False}]
+2025-08-21 11:03:26,655 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:26] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2025-08-21 11:03:26,657 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:26] "GET / HTTP/1.1" 200 -
+2025-08-21 11:03:26,667 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:04:10,464 - INFO - „Çø„Çπ„ÇØ„ÅÆÁä∂ÊÖãÂàá„ÇäÊõø„Åà: {'name': '„Éó„É≠„Ç∞„É©„Éü„É≥„Ç∞', 'done': True}
+2025-08-21 11:04:10,465 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:10] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-08-21 11:04:10,468 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:10] "GET / HTTP/1.1" 200 -
+2025-08-21 11:04:10,477 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:04:21,661 - INFO - „Çø„Çπ„ÇØ„ÅÆÁä∂ÊÖãÂàá„ÇäÊõø„Åà: {'name': '„Éó„É≠„Ç∞„É©„Éü„É≥„Ç∞', 'done': False}
+2025-08-21 11:04:21,661 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:21] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-08-21 11:04:21,664 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:21] "GET / HTTP/1.1" 200 -
+2025-08-21 11:04:21,674 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:04:31,943 - INFO - „Çø„Çπ„ÇØËøΩÂä†: „Ç¢„Éó„É™ÈñãÁô∫
+2025-08-21 11:04:31,944 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 11:04:31,946 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:31] "GET / HTTP/1.1" 200 -
+2025-08-21 11:04:31,956 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

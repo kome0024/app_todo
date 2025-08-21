@@ -1,10 +1,28 @@
 from flask import Flask, render_template, request, redirect, url_for #C言語の#include的なやつ
 import json
 import os
+import logging
+from logging.handlers import RotatingFileHandler
+
 
 app = Flask(__name__) #Flaskアプリを作っているnameはファイル名的な
 
 TASK_FILE = 'tasks.json'
+
+#ログのローテーション設定
+handler = RotatingFileHandler(
+    'app.log', #ログファイル名
+    maxBytes=1024 * 1024, #1MBごとにローテーション
+    backupCount=3, #バックアップファイルの数
+    encoding='utf-8'  # ログファイルのエンコーディング
+)
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+logger.addHandler(handler)
 
 #タスクをファイルから読み込む関数
 def load_tasks():
@@ -36,6 +54,7 @@ def index(): #関数の定義,トップページが開かれたときに呼ば�
         if task:
             tasks.append({"name": task, "done": False})
             save_tasks(tasks)
+            logging.info(f"タスク追加: {task}")#ログにタスク追加を出力
         return redirect(url_for("index"))
     return render_template("index.html", tasks=tasks)
 
@@ -45,6 +64,7 @@ def toggle(task_id):
     if 0 <= task_id < len(tasks):
         tasks[task_id]["done"] = not tasks[task_id]["done"]
         save_tasks(tasks)
+        logging.info(f"タスクの状態切り替え: {tasks[task_id]}")
         return redirect(url_for('index'))
 
 #タスク削除
@@ -53,6 +73,7 @@ def delete(task_id):
     if 0 <= task_id < len(tasks):
         del tasks[task_id]
         save_tasks(tasks)
+        logging.info(f"タスクの削除: {tasks}")  # ログにタスク削除を出力
     return redirect(url_for('index'))
 
 #エラーハンドリング
