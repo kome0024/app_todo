@@ -1,10 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for #C言語の#include的なやつ
 import json
 import os
+import log
 
 app = Flask(__name__) #Flaskアプリを作っているnameはファイル名的な
 
 TASK_FILE = 'tasks.json'
+
 
 #タスクをファイルから読み込む関数
 def load_tasks():
@@ -59,11 +61,13 @@ def delete(task_id):
 #404エラー
 @app.errorhandler(404)
 def not_found(error):
-    return "ページが見つかりませんでした", 404
+    log.logger.error(f"404 error: {error}")
+    return render_template("404.html"), 404
 #500エラー
 @app.errorhandler(500)
 def internal_error(error):
-    return "サーバー内部エラーが発生しました", 500
+    log.logger.error(f"500 error: {error}")
+    return render_template("500.html"), 500 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)

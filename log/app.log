@@ -1,0 +1,274 @@
+2025-08-21 10:45:46,362 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 10:45:46,362 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 10:45:46,363 - INFO -  * Restarting with stat
+2025-08-21 10:45:46,621 - WARNING -  * Debugger is active!
+2025-08-21 10:45:46,625 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:46:06,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 10:46:06,886 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 10:46:06,887 - INFO -  * Restarting with stat
+2025-08-21 10:46:07,151 - WARNING -  * Debugger is active!
+2025-08-21 10:46:07,154 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:46:47,607 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:47] "GET / HTTP/1.1" 200 -
+2025-08-21 10:46:47,663 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:46:50,009 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:50] "GET / HTTP/1.1" 200 -
+2025-08-21 10:46:50,019 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:46:56,950 - INFO - É^ÉXÉNí«â¡: ÉvÉçÉOÉâÉ~ÉìÉO
+2025-08-21 10:46:56,952 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:56] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 10:46:56,954 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:56] "GET / HTTP/1.1" 200 -
+2025-08-21 10:46:56,963 - INFO - 127.0.0.1 - - [21/Aug/2025 10:46:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:48:08,797 - INFO - É^ÉXÉNí«â¡: ÉAÉvÉääJî≠
+2025-08-21 10:48:08,798 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:08] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 10:48:08,801 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:08] "GET / HTTP/1.1" 200 -
+2025-08-21 10:48:08,810 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:48:30,611 - INFO - É^ÉXÉNÇÃçÌèú: [{'name': 'ÉvÉçÉOÉâÉ~ÉìÉO', 'done': False}]
+2025-08-21 10:48:30,612 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:30] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2025-08-21 10:48:30,615 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:30] "GET / HTTP/1.1" 200 -
+2025-08-21 10:48:30,624 - INFO - 127.0.0.1 - - [21/Aug/2025 10:48:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 10:51:41,011 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:51:41,035 - INFO -  * Restarting with stat
+2025-08-21 10:51:41,305 - WARNING -  * Debugger is active!
+2025-08-21 10:51:41,308 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:51:43,350 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:51:43,377 - INFO -  * Restarting with stat
+2025-08-21 10:51:43,667 - WARNING -  * Debugger is active!
+2025-08-21 10:51:43,670 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:52:24,035 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:52:24,058 - INFO -  * Restarting with stat
+2025-08-21 10:52:24,324 - WARNING -  * Debugger is active!
+2025-08-21 10:52:24,327 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 10:52:27,374 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 10:52:27,397 - INFO -  * Restarting with stat
+2025-08-21 11:00:52,384 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 11:00:52,384 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 11:00:52,385 - INFO -  * Restarting with stat
+2025-08-21 11:00:52,650 - WARNING -  * Debugger is active!
+2025-08-21 11:00:52,655 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:01:02,996 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:02] "GET / HTTP/1.1" 200 -
+2025-08-21 11:01:03,058 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:01:07,146 - INFO - É^ÉXÉNí«â¡: É^ÉCÉsÉìÉO
+2025-08-21 11:01:07,146 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 11:01:07,148 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:07] "GET / HTTP/1.1" 200 -
+2025-08-21 11:01:07,157 - INFO - 127.0.0.1 - - [21/Aug/2025 11:01:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:02:28,493 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:28,519 - INFO -  * Restarting with stat
+2025-08-21 11:02:28,795 - WARNING -  * Debugger is active!
+2025-08-21 11:02:28,798 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:02:42,937 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:42,961 - INFO -  * Restarting with stat
+2025-08-21 11:02:43,236 - WARNING -  * Debugger is active!
+2025-08-21 11:02:43,240 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:02:48,305 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:48,329 - INFO -  * Restarting with stat
+2025-08-21 11:02:48,604 - WARNING -  * Debugger is active!
+2025-08-21 11:02:48,607 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:02:51,659 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-21 11:02:51,683 - INFO -  * Restarting with stat
+2025-08-21 11:03:07,356 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-21 11:03:07,356 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 11:03:07,357 - INFO -  * Restarting with stat
+2025-08-21 11:03:07,612 - WARNING -  * Debugger is active!
+2025-08-21 11:03:07,616 - INFO -  * Debugger PIN: 679-399-958
+2025-08-21 11:03:18,885 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:18] "GET / HTTP/1.1" 200 -
+2025-08-21 11:03:18,939 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:03:26,654 - INFO - „Çø„Çπ„ÇØ„ÅÆÂâäÈô§: [{'name': '„Éó„É≠„Ç∞„É©„Éü„É≥„Ç∞', 'done': False}]
+2025-08-21 11:03:26,655 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:26] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2025-08-21 11:03:26,657 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:26] "GET / HTTP/1.1" 200 -
+2025-08-21 11:03:26,667 - INFO - 127.0.0.1 - - [21/Aug/2025 11:03:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:04:10,464 - INFO - „Çø„Çπ„ÇØ„ÅÆÁä∂ÊÖãÂàá„ÇäÊõø„Åà: {'name': '„Éó„É≠„Ç∞„É©„Éü„É≥„Ç∞', 'done': True}
+2025-08-21 11:04:10,465 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:10] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-08-21 11:04:10,468 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:10] "GET / HTTP/1.1" 200 -
+2025-08-21 11:04:10,477 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:04:21,661 - INFO - „Çø„Çπ„ÇØ„ÅÆÁä∂ÊÖãÂàá„ÇäÊõø„Åà: {'name': '„Éó„É≠„Ç∞„É©„Éü„É≥„Ç∞', 'done': False}
+2025-08-21 11:04:21,661 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:21] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-08-21 11:04:21,664 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:21] "GET / HTTP/1.1" 200 -
+2025-08-21 11:04:21,674 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-21 11:04:31,943 - INFO - „Çø„Çπ„ÇØËøΩÂä†: „Ç¢„Éó„É™ÈñãÁô∫
+2025-08-21 11:04:31,944 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-08-21 11:04:31,946 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:31] "GET / HTTP/1.1" 200 -
+2025-08-21 11:04:31,956 - INFO - 127.0.0.1 - - [21/Aug/2025 11:04:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 18:41:50,592 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 18:41:50,592 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 18:41:50,594 - INFO -  * Restarting with stat
+2025-08-23 18:41:50,891 - WARNING -  * Debugger is active!
+2025-08-23 18:41:50,898 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 18:43:16,755 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 18:43:16,784 - INFO -  * Restarting with stat
+2025-08-23 18:43:17,089 - WARNING -  * Debugger is active!
+2025-08-23 18:43:17,093 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 18:44:29,517 - INFO - 127.0.0.1 - - [23/Aug/2025 18:44:29] "GET / HTTP/1.1" 200 -
+2025-08-23 18:44:29,590 - INFO - 127.0.0.1 - - [23/Aug/2025 18:44:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 18:44:29,636 - INFO - 127.0.0.1 - - [23/Aug/2025 18:44:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-23 18:45:04,489 - INFO - 127.0.0.1 - - [23/Aug/2025 18:45:04] "[32mPOST /delete/1 HTTP/1.1[0m" 302 -
+2025-08-23 18:45:04,493 - INFO - 127.0.0.1 - - [23/Aug/2025 18:45:04] "GET / HTTP/1.1" 200 -
+2025-08-23 18:45:04,504 - INFO - 127.0.0.1 - - [23/Aug/2025 18:45:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 20:31:12,371 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\log.py', reloading
+2025-08-23 20:31:12,431 - INFO -  * Restarting with stat
+2025-08-23 20:36:07,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 20:36:07,877 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 20:36:07,878 - INFO -  * Restarting with stat
+2025-08-23 20:36:08,167 - WARNING -  * Debugger is active!
+2025-08-23 20:36:08,171 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:36:13,132 - INFO - 127.0.0.1 - - [23/Aug/2025 20:36:13] "GET / HTTP/1.1" 200 -
+2025-08-23 20:36:13,188 - INFO - 127.0.0.1 - - [23/Aug/2025 20:36:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 20:36:21,826 - INFO - 127.0.0.1 - - [23/Aug/2025 20:36:21] "[35m[1mGET /aiueo HTTP/1.1[0m" 500 -
+2025-08-23 20:36:21,868 - INFO - 127.0.0.1 - - [23/Aug/2025 20:36:21] "GET /aiueo?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-23 20:36:21,890 - INFO - 127.0.0.1 - - [23/Aug/2025 20:36:21] "GET /aiueo?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-23 20:36:21,914 - INFO - 127.0.0.1 - - [23/Aug/2025 20:36:21] "GET /aiueo?__debugger__=yes&cmd=resource&f=console.png&s=zcrZAPyINVOVd5cuyLzk HTTP/1.1" 200 -
+2025-08-23 20:36:21,943 - INFO - 127.0.0.1 - - [23/Aug/2025 20:36:21] "GET /aiueo?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-23 20:37:53,026 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 20:37:53,026 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 20:37:53,027 - INFO -  * Restarting with stat
+2025-08-23 20:37:53,297 - WARNING -  * Debugger is active!
+2025-08-23 20:37:53,301 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:37:59,162 - INFO - 127.0.0.1 - - [23/Aug/2025 20:37:59] "GET / HTTP/1.1" 200 -
+2025-08-23 20:37:59,232 - INFO - 127.0.0.1 - - [23/Aug/2025 20:37:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 20:38:23,016 - INFO - 127.0.0.1 - - [23/Aug/2025 20:38:23] "[35m[1mGET /a HTTP/1.1[0m" 500 -
+2025-08-23 20:38:23,028 - INFO - 127.0.0.1 - - [23/Aug/2025 20:38:23] "GET /a?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-23 20:38:23,028 - INFO - 127.0.0.1 - - [23/Aug/2025 20:38:23] "GET /a?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-23 20:38:23,038 - INFO - 127.0.0.1 - - [23/Aug/2025 20:38:23] "GET /a?__debugger__=yes&cmd=resource&f=console.png&s=UfclO5T3muF9Hx3XMerb HTTP/1.1" 200 -
+2025-08-23 20:38:23,074 - INFO - 127.0.0.1 - - [23/Aug/2025 20:38:23] "GET /a?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-23 20:38:48,833 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:38:48,859 - INFO -  * Restarting with stat
+2025-08-23 20:38:49,181 - WARNING -  * Debugger is active!
+2025-08-23 20:38:49,185 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:38:55,269 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:38:55,300 - INFO -  * Restarting with stat
+2025-08-23 20:38:55,625 - WARNING -  * Debugger is active!
+2025-08-23 20:38:55,628 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:38:59,688 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:38:59,712 - INFO -  * Restarting with stat
+2025-08-23 20:38:59,999 - WARNING -  * Debugger is active!
+2025-08-23 20:39:00,003 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:39:04,066 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:39:04,097 - INFO -  * Restarting with stat
+2025-08-23 20:39:04,397 - WARNING -  * Debugger is active!
+2025-08-23 20:39:04,401 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:39:22,586 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:39:22,611 - INFO -  * Restarting with stat
+2025-08-23 20:39:22,893 - WARNING -  * Debugger is active!
+2025-08-23 20:39:22,896 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:50:29,386 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\log.py', reloading
+2025-08-23 20:50:29,414 - INFO -  * Restarting with stat
+2025-08-23 20:50:29,717 - WARNING -  * Debugger is active!
+2025-08-23 20:50:29,721 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:50:30,754 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\log.py', reloading
+2025-08-23 20:50:30,790 - INFO -  * Restarting with stat
+2025-08-23 20:55:28,591 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 20:55:28,591 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 20:55:28,592 - INFO -  * Restarting with stat
+2025-08-23 20:55:28,869 - WARNING -  * Debugger is active!
+2025-08-23 20:55:28,873 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:55:33,111 - INFO - 127.0.0.1 - - [23/Aug/2025 20:55:33] "GET / HTTP/1.1" 200 -
+2025-08-23 20:55:33,182 - INFO - 127.0.0.1 - - [23/Aug/2025 20:55:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 20:55:40,122 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-08-23 20:55:40,122 - INFO - 127.0.0.1 - - [23/Aug/2025 20:55:40] "[33mGET /abc HTTP/1.1[0m" 404 -
+2025-08-23 20:56:51,685 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:56:51,712 - INFO -  * Restarting with stat
+2025-08-23 20:56:51,992 - WARNING -  * Debugger is active!
+2025-08-23 20:56:51,995 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:00,088 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:57:00,111 - INFO -  * Restarting with stat
+2025-08-23 20:57:00,390 - WARNING -  * Debugger is active!
+2025-08-23 20:57:00,394 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:01,428 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:57:01,452 - INFO -  * Restarting with stat
+2025-08-23 20:57:01,742 - WARNING -  * Debugger is active!
+2025-08-23 20:57:01,747 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:19,931 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:57:19,954 - INFO -  * Restarting with stat
+2025-08-23 20:57:20,236 - WARNING -  * Debugger is active!
+2025-08-23 20:57:20,239 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:22,281 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:57:22,307 - INFO -  * Restarting with stat
+2025-08-23 20:57:22,595 - WARNING -  * Debugger is active!
+2025-08-23 20:57:22,598 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:27,667 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:57:27,693 - INFO -  * Restarting with stat
+2025-08-23 20:57:27,982 - WARNING -  * Debugger is active!
+2025-08-23 20:57:27,985 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:32,047 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:57:32,080 - INFO -  * Restarting with stat
+2025-08-23 20:57:32,369 - WARNING -  * Debugger is active!
+2025-08-23 20:57:32,372 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:33,403 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 20:57:33,429 - INFO -  * Restarting with stat
+2025-08-23 20:57:33,714 - WARNING -  * Debugger is active!
+2025-08-23 20:57:33,717 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 20:57:45,357 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-08-23 20:57:45,362 - INFO - 127.0.0.1 - - [23/Aug/2025 20:57:45] "[33mGET /abc HTTP/1.1[0m" 404 -
+2025-08-23 20:57:45,417 - INFO - 127.0.0.1 - - [23/Aug/2025 20:57:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 20:57:53,711 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-08-23 20:57:53,711 - INFO - 127.0.0.1 - - [23/Aug/2025 20:57:53] "[33mGET /abc HTTP/1.1[0m" 404 -
+2025-08-23 20:57:53,721 - INFO - 127.0.0.1 - - [23/Aug/2025 20:57:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 20:58:26,015 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-08-23 20:58:26,015 - INFO - 127.0.0.1 - - [23/Aug/2025 20:58:26] "[33mGET /a HTTP/1.1[0m" 404 -
+2025-08-23 20:58:26,025 - INFO - 127.0.0.1 - - [23/Aug/2025 20:58:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 21:00:28,333 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 21:00:28,360 - INFO -  * Restarting with stat
+2025-08-23 21:00:28,638 - WARNING -  * Debugger is active!
+2025-08-23 21:00:28,642 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 21:01:07,008 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 21:01:07,032 - INFO -  * Restarting with stat
+2025-08-23 21:01:07,315 - WARNING -  * Debugger is active!
+2025-08-23 21:01:07,318 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 21:01:11,818 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-08-23 21:01:11,826 - INFO - 127.0.0.1 - - [23/Aug/2025 21:01:11] "[33mGET /a HTTP/1.1[0m" 404 -
+2025-08-23 21:02:22,009 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 21:02:22,036 - INFO -  * Restarting with stat
+2025-08-23 21:02:22,342 - WARNING -  * Debugger is active!
+2025-08-23 21:02:22,345 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 21:02:23,377 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 21:02:23,402 - INFO -  * Restarting with stat
+2025-08-23 21:04:53,250 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 21:04:53,250 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 21:04:53,251 - INFO -  * Restarting with stat
+2025-08-23 21:04:53,530 - WARNING -  * Debugger is active!
+2025-08-23 21:04:53,533 - INFO -  * Debugger PIN: 209-934-763
+2025-08-23 21:04:58,004 - INFO - 127.0.0.1 - - [23/Aug/2025 21:04:58] "GET / HTTP/1.1" 200 -
+2025-08-23 21:04:58,078 - INFO - 127.0.0.1 - - [23/Aug/2025 21:04:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 21:04:59,637 - INFO - 127.0.0.1 - - [23/Aug/2025 21:04:59] "GET / HTTP/1.1" 200 -
+2025-08-23 21:04:59,673 - INFO - 127.0.0.1 - - [23/Aug/2025 21:04:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 21:05:14,455 - INFO - 127.0.0.1 - - [23/Aug/2025 21:05:14] "[35m[1mGET /cause500 HTTP/1.1[0m" 500 -
+2025-08-23 21:05:14,467 - INFO - 127.0.0.1 - - [23/Aug/2025 21:05:14] "GET /cause500?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-23 21:05:14,472 - INFO - 127.0.0.1 - - [23/Aug/2025 21:05:14] "GET /cause500?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-23 21:05:14,493 - INFO - 127.0.0.1 - - [23/Aug/2025 21:05:14] "GET /cause500?__debugger__=yes&cmd=resource&f=console.png&s=cdzdyArQc7FKZFWSlC8h HTTP/1.1" 200 -
+2025-08-23 21:05:14,519 - INFO - 127.0.0.1 - - [23/Aug/2025 21:05:14] "GET /cause500?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-23 21:05:34,937 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2025-08-23 21:05:34,962 - INFO -  * Restarting with stat
+2025-08-23 21:05:46,260 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 21:05:46,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 21:05:48,454 - ERROR - Exception on /cause500 [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 74, in cause500_check
+    raise Exception("„ÉÜ„Çπ„ÉàÁî®500„Ç®„É©„Éº")
+Exception: „ÉÜ„Çπ„ÉàÁî®500„Ç®„É©„Éº
+2025-08-23 21:05:48,458 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-08-23 21:05:48,466 - INFO - 127.0.0.1 - - [23/Aug/2025 21:05:48] "[35m[1mGET /cause500 HTTP/1.1[0m" 500 -
+2025-08-23 21:14:10,950 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-08-23 21:14:10,951 - INFO - [33mPress CTRL+C to quit[0m
+2025-08-23 21:14:17,799 - INFO - 127.0.0.1 - - [23/Aug/2025 21:14:17] "GET / HTTP/1.1" 200 -
+2025-08-23 21:14:17,869 - INFO - 127.0.0.1 - - [23/Aug/2025 21:14:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 21:14:20,025 - INFO - 127.0.0.1 - - [23/Aug/2025 21:14:20] "GET / HTTP/1.1" 200 -
+2025-08-23 21:14:20,061 - INFO - 127.0.0.1 - - [23/Aug/2025 21:14:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-08-23 21:14:27,397 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-08-23 21:14:27,398 - INFO - 127.0.0.1 - - [23/Aug/2025 21:14:27] "[33mGET /a HTTP/1.1[0m" 404 -
