@@ -21,8 +21,13 @@
                     <input type="checkbox" name="done" onchange="this.form.submit()" {% if task.done %}checked{% endif %}>
                     {{task.name}}
                 </form>
+
                 <form method="post" action="/delete/{{ loop.index0 }}" style="display:inline;">
                     <button type="submit" class="delete-btn">削除</button>
+                </form>
+                
+                <form method="post" action="/edit/{{loop.index0}}" style="display:inline;">
+                    <button type="submit" class="edit-btn">編集</button>
                 </form>
             </li>
         {% endfor %}

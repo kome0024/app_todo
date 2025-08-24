@@ -36,6 +36,10 @@ button {
     background: #ff6b6b;
     color: white;
 }
+.edit-btn {
+    background: #1E90FF;
+    color: white;
+}
 
 ol {
     list-style-position: inside;
