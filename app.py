@@ -38,7 +38,6 @@ def index(): #関数の定義,トップページが開かれたときに呼ば�
         if task:
             tasks.append({"name": task, "done": False})
             save_tasks(tasks)
-            log.logger.debug(f"タスクの追加: {task}")
         return redirect(url_for("index"))
     return render_template("index.html", tasks=tasks)
 
@@ -48,7 +47,6 @@ def toggle(task_id):
     if 0 <= task_id < len(tasks):
         tasks[task_id]["done"] = not tasks[task_id]["done"]
         save_tasks(tasks)
-        log.logger.debug(f"チェックボックス状態切り替え: {tasks[task_id]}")
         return redirect(url_for('index'))
 
 #タスク削除
@@ -57,20 +55,21 @@ def delete(task_id):
     if 0 <= task_id < len(tasks):
         del tasks[task_id]
         save_tasks(tasks)
-        log.logger.debug(f"タスクの削除: {task_id}")
     return redirect(url_for('index'))
 
 #タスク編集
-@app.route('/edit/<int:task_id>', methods=['POST', 'GET'])
+@app.route('/edit/<int:task_id>', methods=['GET', 'POST'])
 def edit(task_id):
-    if request.method == 'POST':
-        new_name = request.form.get('new_name')
-        if new_name and 0 <= task_id < len(tasks):
-            old_name = tasks[task_id]['name']
-            tasks[task_id]['name'] = new_name
-            save_tasks(tasks)
-            log.logger.debug(f"タスクの編集: {old_name} -> {new_name}")
-        return redirect(url_for('index'))
+    if 0 <= task_id < len(tasks):
+        if request.method == 'POST':
+            new_name = request.form.get('task')
+            if new_name:
+                tasks[task_id]['name'] = new_name
+                save_tasks(tasks)
+            return redirect(url_for('index'))
+        # GETリクエスト時は新しい編集画面を表示
+        return render_template('edit2.html', task=tasks[task_id], task_id=task_id)
+    return redirect(url_for('index'))
 
 #エラーハンドリング
 #404エラー
