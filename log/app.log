@@ -635,3 +635,88 @@ Traceback (most recent call last):
 jinja2.exceptions.TemplateNotFound: edit2.html
 2025-09-01 16:12:03,933 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
 2025-09-01 16:12:03,934 - INFO - 127.0.0.1 - - [01/Sep/2025 16:12:03] "[35m[1mGET /edit/0 HTTP/1.1[0m" 500 -
+2025-09-09 11:05:31,038 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 11:05:31,039 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 11:05:34,994 - INFO - 127.0.0.1 - - [09/Sep/2025 11:05:34] "GET / HTTP/1.1" 200 -
+2025-09-09 11:05:35,064 - INFO - 127.0.0.1 - - [09/Sep/2025 11:05:35] "GET /static/style.css HTTP/1.1" 200 -
+2025-09-09 11:05:35,075 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-09-09 11:05:35,084 - INFO - 127.0.0.1 - - [09/Sep/2025 11:05:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 11:05:37,764 - INFO - 127.0.0.1 - - [09/Sep/2025 11:05:37] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 11:05:47,108 - INFO - 127.0.0.1 - - [09/Sep/2025 11:05:47] "GET / HTTP/1.1" 200 -
+2025-09-09 11:05:47,120 - INFO - 127.0.0.1 - - [09/Sep/2025 11:05:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:06:15,703 - INFO - 127.0.0.1 - - [09/Sep/2025 11:06:15] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 11:06:30,798 - INFO - 127.0.0.1 - - [09/Sep/2025 11:06:30] "GET / HTTP/1.1" 200 -
+2025-09-09 11:06:30,811 - INFO - 127.0.0.1 - - [09/Sep/2025 11:06:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:07:53,039 - INFO - 127.0.0.1 - - [09/Sep/2025 11:07:53] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 11:08:02,874 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:02] "[32mPOST /edit/0 HTTP/1.1[0m" 302 -
+2025-09-09 11:08:02,877 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:02] "GET / HTTP/1.1" 200 -
+2025-09-09 11:08:02,894 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:08:05,562 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:05] "[32mPOST /delete/0 HTTP/1.1[0m" 302 -
+2025-09-09 11:08:05,564 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:05] "GET / HTTP/1.1" 200 -
+2025-09-09 11:08:05,574 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:08:07,646 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:07] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-09 11:08:07,648 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:07] "GET / HTTP/1.1" 200 -
+2025-09-09 11:08:07,658 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:08:14,667 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:14] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 11:08:22,752 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:22] "GET / HTTP/1.1" 200 -
+2025-09-09 11:08:22,763 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:08:24,116 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:24] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 11:08:36,088 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:36] "GET / HTTP/1.1" 200 -
+2025-09-09 11:08:36,100 - INFO - 127.0.0.1 - - [09/Sep/2025 11:08:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:09:36,906 - INFO - 127.0.0.1 - - [09/Sep/2025 11:09:36] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 11:09:40,036 - INFO - 127.0.0.1 - - [09/Sep/2025 11:09:40] "GET / HTTP/1.1" 200 -
+2025-09-09 11:09:40,048 - INFO - 127.0.0.1 - - [09/Sep/2025 11:09:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 11:09:44,484 - INFO - 127.0.0.1 - - [09/Sep/2025 11:09:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-09-09 11:09:44,487 - INFO - 127.0.0.1 - - [09/Sep/2025 11:09:44] "GET / HTTP/1.1" 200 -
+2025-09-09 11:09:44,496 - INFO - 127.0.0.1 - - [09/Sep/2025 11:09:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:12:02,266 - INFO - 127.0.0.1 - - [09/Sep/2025 13:12:02] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:13:19,178 - INFO - 127.0.0.1 - - [09/Sep/2025 13:13:19] "GET / HTTP/1.1" 200 -
+2025-09-09 13:13:19,190 - INFO - 127.0.0.1 - - [09/Sep/2025 13:13:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:14:45,560 - INFO - 127.0.0.1 - - [09/Sep/2025 13:14:45] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:15:02,612 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:02] "GET / HTTP/1.1" 200 -
+2025-09-09 13:15:02,625 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:15:03,844 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:03] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:15:05,106 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:05] "GET / HTTP/1.1" 200 -
+2025-09-09 13:15:05,118 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:15:09,440 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:09] "GET / HTTP/1.1" 200 -
+2025-09-09 13:15:09,450 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:15:10,218 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:10] "GET / HTTP/1.1" 200 -
+2025-09-09 13:15:10,226 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:15:11,998 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:11] "GET / HTTP/1.1" 200 -
+2025-09-09 13:15:12,006 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:15:13,094 - INFO - 127.0.0.1 - - [09/Sep/2025 13:15:13] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:19:13,404 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:13] "GET / HTTP/1.1" 200 -
+2025-09-09 13:19:13,413 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:19:14,457 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:14] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:19:15,730 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:15] "GET / HTTP/1.1" 200 -
+2025-09-09 13:19:15,745 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:19:22,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 13:19:22,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 13:19:26,310 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:26] "GET / HTTP/1.1" 200 -
+2025-09-09 13:19:26,368 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:19:28,135 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:28] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:19:53,199 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:53] "GET / HTTP/1.1" 200 -
+2025-09-09 13:19:53,211 - INFO - 127.0.0.1 - - [09/Sep/2025 13:19:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:20:59,162 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 13:20:59,162 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 13:21:05,148 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:05] "GET / HTTP/1.1" 200 -
+2025-09-09 13:21:05,208 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:21:06,721 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:06] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:21:13,417 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:13] "[32mPOST /edit/0 HTTP/1.1[0m" 302 -
+2025-09-09 13:21:13,420 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:13] "GET / HTTP/1.1" 200 -
+2025-09-09 13:21:13,433 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:21:23,838 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 13:21:23,838 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-09 13:21:28,521 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:28] "GET / HTTP/1.1" 200 -
+2025-09-09 13:21:28,573 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:21:29,908 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:29] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:21:34,517 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:34] "[32mPOST /edit/0 HTTP/1.1[0m" 302 -
+2025-09-09 13:21:34,520 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:34] "GET / HTTP/1.1" 200 -
+2025-09-09 13:21:34,535 - INFO - 127.0.0.1 - - [09/Sep/2025 13:21:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-09-09 13:24:04,250 - INFO - 127.0.0.1 - - [09/Sep/2025 13:24:04] "GET /edit/0 HTTP/1.1" 200 -
+2025-09-09 13:38:05,895 - INFO - 127.0.0.1 - - [09/Sep/2025 13:38:05] "GET / HTTP/1.1" 200 -
+2025-09-09 13:38:05,909 - INFO - 127.0.0.1 - - [09/Sep/2025 13:38:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
