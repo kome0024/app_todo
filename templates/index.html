@@ -21,9 +21,13 @@
                     <input type="checkbox" name="done" onchange="this.form.submit()" {% if task.done %}checked{% endif %}>
                     {{task.name}}
                 </form>
+
                 <form method="post" action="/delete/{{ loop.index0 }}" style="display:inline;">
                     <button type="submit" class="delete-btn">削除</button>
                 </form>
+                
+                <a href="{{ url_for('edit', task_id=loop.index0) }}">編集
+                </a>
             </li>
         {% endfor %}
     </ol>
