@@ -720,3 +720,852 @@ jinja2.exceptions.TemplateNotFound: edit2.html
 2025-09-09 13:24:04,250 - INFO - 127.0.0.1 - - [09/Sep/2025 13:24:04] "GET /edit/0 HTTP/1.1" 200 -
 2025-09-09 13:38:05,895 - INFO - 127.0.0.1 - - [09/Sep/2025 13:38:05] "GET / HTTP/1.1" 200 -
 2025-09-09 13:38:05,909 - INFO - 127.0.0.1 - - [09/Sep/2025 13:38:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:16,338 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 15:40:16,338 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 15:40:24,885 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:24] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:24,949 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:24] "GET /static/style.css HTTP/1.1" 200 -
+2025-11-03 15:40:25,357 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-11-03 15:40:25,358 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-03 15:40:33,001 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:33] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:33,005 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:33] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:33,016 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:33,516 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:33] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:33,518 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:33] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:33,527 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:34,656 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:34] "[32mPOST /toggle/1 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:34,658 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:34] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:34,667 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:35,043 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:35] "[32mPOST /toggle/1 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:35,045 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:35] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:35,054 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:35,739 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:35] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:35,741 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:35] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:35,751 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:36,618 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:36] "[32mPOST /toggle/1 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:36,620 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:36] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:36,631 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:37,029 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:37] "[32mPOST /toggle/1 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:37,030 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:37] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:37,040 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 15:40:37,907 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:37] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-11-03 15:40:37,910 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:37] "GET / HTTP/1.1" 200 -
+2025-11-03 15:40:37,920 - INFO - 127.0.0.1 - - [03/Nov/2025 15:40:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:03:39,791 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:03:39,791 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:03:43,041 - INFO - 127.0.0.1 - - [03/Nov/2025 16:03:43] "GET / HTTP/1.1" 200 -
+2025-11-03 16:03:43,107 - INFO - 127.0.0.1 - - [03/Nov/2025 16:03:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:05:08,858 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:05:08,858 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:05:11,399 - INFO - 127.0.0.1 - - [03/Nov/2025 16:05:11] "GET / HTTP/1.1" 200 -
+2025-11-03 16:05:11,458 - INFO - 127.0.0.1 - - [03/Nov/2025 16:05:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:12:05,271 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:12:05,271 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:12:10,400 - INFO - 127.0.0.1 - - [03/Nov/2025 16:12:10] "GET / HTTP/1.1" 200 -
+2025-11-03 16:12:10,471 - INFO - 127.0.0.1 - - [03/Nov/2025 16:12:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:14:04,852 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:04] "GET / HTTP/1.1" 200 -
+2025-11-03 16:14:04,860 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:14:05,634 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:05] "GET / HTTP/1.1" 200 -
+2025-11-03 16:14:05,643 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:14:05,827 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:05] "GET / HTTP/1.1" 200 -
+2025-11-03 16:14:05,837 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:14:05,990 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:05] "GET / HTTP/1.1" 200 -
+2025-11-03 16:14:05,998 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:14:06,154 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:06] "GET / HTTP/1.1" 200 -
+2025-11-03 16:14:06,165 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:14:11,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:14:11,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:14:14,455 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:14] "GET / HTTP/1.1" 200 -
+2025-11-03 16:14:14,519 - INFO - 127.0.0.1 - - [03/Nov/2025 16:14:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:19:09,263 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:19:09,263 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:19:12,850 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}">
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:19:12,893 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:19:12,899 - INFO - 127.0.0.1 - - [03/Nov/2025 16:19:12] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:21:15,560 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:21:15,560 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:21:22,286 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}">
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:21:22,289 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:21:22,290 - INFO - 127.0.0.1 - - [03/Nov/2025 16:21:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:21:46,936 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:21:46,937 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:21:55,577 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:21:55,580 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:21:55,581 - INFO - 127.0.0.1 - - [03/Nov/2025 16:21:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:22:06,796 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:22:06,798 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:22:06,799 - INFO - 127.0.0.1 - - [03/Nov/2025 16:22:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:22:06,811 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-11-03 16:22:06,822 - INFO - 127.0.0.1 - - [03/Nov/2025 16:22:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-03 16:22:10,902 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:22:10,904 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:22:10,904 - INFO - 127.0.0.1 - - [03/Nov/2025 16:22:10] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:22:10,915 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-11-03 16:22:10,915 - INFO - 127.0.0.1 - - [03/Nov/2025 16:22:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-03 16:24:18,926 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:24:18,927 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:24:20,813 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:24:20,818 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:24:20,819 - INFO - 127.0.0.1 - - [03/Nov/2025 16:24:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:24:58,023 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:24:58,025 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:24:58,026 - INFO - 127.0.0.1 - - [03/Nov/2025 16:24:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:24:59,531 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:24:59,532 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:24:59,533 - INFO - 127.0.0.1 - - [03/Nov/2025 16:24:59] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:00,032 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:00,034 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:00,034 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:00,202 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:00,204 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:00,204 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:00,357 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:00,358 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:00,359 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:00,511 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:00,512 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:00,513 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:00,640 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:00,642 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:00,643 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:00,789 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:00,791 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:00,791 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:00,943 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:00,945 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:00,945 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:00] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:01,094 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:01,096 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:01,096 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:01,248 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:01,250 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:01,250 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:25:01,389 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:25:01,391 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:25:01,391 - INFO - 127.0.0.1 - - [03/Nov/2025 16:25:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:28:15,612 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:28:15,612 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:28:19,481 - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\app.py", line 42, in index
+    return render_template("index.html", tasks=tasks)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\jinja2\environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\taku1\myprog\todo_app\templates\index.html", line 7, in top-level template code
+    <!-- <link rel="icon" href="{{ url_for('images', filename='favicon.ico') }}"> -->
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\flask\app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "C:\Users\taku1\myprog\todo_app\venv\Lib\site-packages\werkzeug\routing\map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images' with values ['filename']. Did you mean 'index' instead?
+2025-11-03 16:28:19,486 - ERROR - 500 error: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+2025-11-03 16:28:19,487 - INFO - 127.0.0.1 - - [03/Nov/2025 16:28:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:28:54,580 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:28:54,580 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:28:54,582 - INFO -  * Restarting with stat
+2025-11-03 16:28:54,844 - WARNING -  * Debugger is active!
+2025-11-03 16:28:54,852 - INFO -  * Debugger PIN: 122-423-516
+2025-11-03 16:29:03,275 - INFO - 127.0.0.1 - - [03/Nov/2025 16:29:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-11-03 16:29:03,387 - INFO - 127.0.0.1 - - [03/Nov/2025 16:29:03] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-11-03 16:29:03,392 - INFO - 127.0.0.1 - - [03/Nov/2025 16:29:03] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-11-03 16:29:03,552 - INFO - 127.0.0.1 - - [03/Nov/2025 16:29:03] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=dwQMK8Pw51uVMTZBXfhW HTTP/1.1" 200 -
+2025-11-03 16:29:03,588 - INFO - 127.0.0.1 - - [03/Nov/2025 16:29:03] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-11-03 16:29:56,402 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:29:56,402 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:29:56,403 - INFO -  * Restarting with stat
+2025-11-03 16:29:56,672 - WARNING -  * Debugger is active!
+2025-11-03 16:29:56,676 - INFO -  * Debugger PIN: 122-423-516
+2025-11-03 16:30:04,193 - INFO - 127.0.0.1 - - [03/Nov/2025 16:30:04] "GET / HTTP/1.1" 200 -
+2025-11-03 16:30:04,257 - INFO - 127.0.0.1 - - [03/Nov/2025 16:30:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:32:18,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-03 16:32:18,666 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-03 16:32:18,667 - INFO -  * Restarting with stat
+2025-11-03 16:32:18,934 - WARNING -  * Debugger is active!
+2025-11-03 16:32:18,937 - INFO -  * Debugger PIN: 122-423-516
+2025-11-03 16:32:25,235 - INFO - 127.0.0.1 - - [03/Nov/2025 16:32:25] "GET / HTTP/1.1" 200 -
+2025-11-03 16:32:25,297 - INFO - 127.0.0.1 - - [03/Nov/2025 16:32:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-03 16:32:25,314 - INFO - 127.0.0.1 - - [03/Nov/2025 16:32:25] "GET /static/favicon.ico HTTP/1.1" 200 -
