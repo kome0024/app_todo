@@ -1625,3 +1625,12 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images
 2025-11-06 17:55:55,125 - INFO - 127.0.0.1 - - [06/Nov/2025 17:55:55] "GET /edit/0 HTTP/1.1" 200 -
 2025-11-06 17:55:56,470 - INFO - 127.0.0.1 - - [06/Nov/2025 17:55:56] "GET / HTTP/1.1" 200 -
 2025-11-06 17:55:56,494 - INFO - 127.0.0.1 - - [06/Nov/2025 17:55:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 14:32:25,382 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-07 14:32:25,382 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 14:32:25,383 - INFO -  * Restarting with stat
+2026-01-07 14:32:25,670 - WARNING -  * Debugger is active!
+2026-01-07 14:32:25,674 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 14:32:32,118 - INFO - 127.0.0.1 - - [07/Jan/2026 14:32:32] "GET / HTTP/1.1" 200 -
+2026-01-07 14:32:32,215 - INFO - 127.0.0.1 - - [07/Jan/2026 14:32:32] "GET /static/style.css HTTP/1.1" 200 -
+2026-01-07 14:32:32,236 - INFO - 127.0.0.1 - - [07/Jan/2026 14:32:32] "GET /static/favicon.ico HTTP/1.1" 200 -
