@@ -1634,3 +1634,129 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images
 2026-01-07 14:32:32,118 - INFO - 127.0.0.1 - - [07/Jan/2026 14:32:32] "GET / HTTP/1.1" 200 -
 2026-01-07 14:32:32,215 - INFO - 127.0.0.1 - - [07/Jan/2026 14:32:32] "GET /static/style.css HTTP/1.1" 200 -
 2026-01-07 14:32:32,236 - INFO - 127.0.0.1 - - [07/Jan/2026 14:32:32] "GET /static/favicon.ico HTTP/1.1" 200 -
+2026-01-07 15:51:25,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-07 15:51:25,448 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 15:51:25,450 - INFO -  * Restarting with stat
+2026-01-07 15:51:26,066 - WARNING -  * Debugger is active!
+2026-01-07 15:51:26,069 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 15:51:31,397 - INFO - 127.0.0.1 - - [07/Jan/2026 15:51:31] "GET / HTTP/1.1" 200 -
+2026-01-07 15:51:31,485 - INFO - 127.0.0.1 - - [07/Jan/2026 15:51:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 15:51:31,494 - INFO - 127.0.0.1 - - [07/Jan/2026 15:51:31] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-01-07 15:51:32,352 - INFO - 127.0.0.1 - - [07/Jan/2026 15:51:32] "GET / HTTP/1.1" 200 -
+2026-01-07 15:51:32,361 - INFO - 127.0.0.1 - - [07/Jan/2026 15:51:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 15:51:32,366 - INFO - 127.0.0.1 - - [07/Jan/2026 15:51:32] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-01-07 16:05:52,846 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-07 16:05:52,846 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 16:05:52,847 - INFO -  * Restarting with stat
+2026-01-07 16:05:53,475 - WARNING -  * Debugger is active!
+2026-01-07 16:05:53,479 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:06:09,074 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:09] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:09,154 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:16,879 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:16] "GET /edit/1 HTTP/1.1" 200 -
+2026-01-07 16:06:16,895 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-01-07 16:06:16,905 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-07 16:06:18,885 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:18] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:18,896 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:22,455 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-07 16:06:22,459 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:22] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:22,468 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:24,233 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:24] "[32mPOST /delete/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:06:24,237 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:24] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:24,251 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:26,086 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:26] "[32mPOST /delete/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:06:26,090 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:26] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:26,101 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:27,099 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:27] "[32mPOST /delete/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:06:27,103 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:27] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:27,113 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:27,966 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:27] "[32mPOST /delete/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:06:27,970 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:27] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:27,979 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:28,755 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:28] "[32mPOST /delete/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:06:28,760 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:28] "GET / HTTP/1.1" 200 -
+2026-01-07 16:06:28,770 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:06:30,562 - INFO - 127.0.0.1 - - [07/Jan/2026 16:06:30] "GET /edit/9 HTTP/1.1" 200 -
+2026-01-07 16:07:36,111 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2026-01-07 16:07:36,196 - INFO -  * Restarting with stat
+2026-01-07 16:07:36,884 - WARNING -  * Debugger is active!
+2026-01-07 16:07:36,887 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:07:49,254 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2026-01-07 16:07:49,320 - INFO -  * Restarting with stat
+2026-01-07 16:07:50,006 - WARNING -  * Debugger is active!
+2026-01-07 16:07:50,010 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:08:37,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-07 16:08:37,151 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 16:08:37,153 - INFO -  * Restarting with stat
+2026-01-07 16:08:37,813 - WARNING -  * Debugger is active!
+2026-01-07 16:08:37,817 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:08:44,060 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:44] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:44,129 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:08:44,136 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:44] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-01-07 16:08:47,019 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:47] "[32mPOST /delete/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:08:47,023 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:47] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:47,037 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:08:54,706 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:54] "[32mPOST /toggle/3 HTTP/1.1[0m" 302 -
+2026-01-07 16:08:54,710 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:54] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:54,720 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:08:55,518 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:55] "[32mPOST /toggle/3 HTTP/1.1[0m" 302 -
+2026-01-07 16:08:55,522 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:55] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:55,533 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:08:57,907 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:57] "[32mPOST /toggle/3 HTTP/1.1[0m" 302 -
+2026-01-07 16:08:57,911 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:57] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:57,920 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:08:58,378 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:58] "[32mPOST /toggle/3 HTTP/1.1[0m" 302 -
+2026-01-07 16:08:58,381 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:58] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:58,390 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:08:59,457 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:59] "[32mPOST /toggle/4 HTTP/1.1[0m" 302 -
+2026-01-07 16:08:59,461 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:59] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:59,473 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:08:59,938 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:59] "[32mPOST /toggle/4 HTTP/1.1[0m" 302 -
+2026-01-07 16:08:59,941 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:59] "GET / HTTP/1.1" 200 -
+2026-01-07 16:08:59,950 - INFO - 127.0.0.1 - - [07/Jan/2026 16:08:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:10:34,818 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2026-01-07 16:10:34,878 - INFO -  * Restarting with stat
+2026-01-07 16:10:35,553 - WARNING -  * Debugger is active!
+2026-01-07 16:10:35,557 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:10:37,651 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2026-01-07 16:10:37,732 - INFO -  * Restarting with stat
+2026-01-07 16:10:38,391 - WARNING -  * Debugger is active!
+2026-01-07 16:10:38,395 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:10:48,678 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2026-01-07 16:10:48,740 - INFO -  * Restarting with stat
+2026-01-07 16:10:49,431 - WARNING -  * Debugger is active!
+2026-01-07 16:10:49,434 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:10:59,715 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2026-01-07 16:10:59,774 - INFO -  * Restarting with stat
+2026-01-07 16:11:00,423 - WARNING -  * Debugger is active!
+2026-01-07 16:11:00,427 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:11:25,041 - INFO -  * Detected change in 'C:\\Users\\taku1\\myprog\\todo_app\\app.py', reloading
+2026-01-07 16:11:25,115 - INFO -  * Restarting with stat
+2026-01-07 16:11:25,806 - WARNING -  * Debugger is active!
+2026-01-07 16:11:25,810 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:12:49,720 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-01-07 16:12:49,720 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-07 16:12:49,722 - INFO -  * Restarting with stat
+2026-01-07 16:12:50,345 - WARNING -  * Debugger is active!
+2026-01-07 16:12:50,348 - INFO -  * Debugger PIN: 330-097-419
+2026-01-07 16:13:04,432 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:04] "GET / HTTP/1.1" 200 -
+2026-01-07 16:13:04,518 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:13:04,531 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:04] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-01-07 16:13:11,466 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:11] "[32mPOST / HTTP/1.1[0m" 302 -
+2026-01-07 16:13:11,470 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:11] "GET / HTTP/1.1" 200 -
+2026-01-07 16:13:11,478 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:13:12,730 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:12] "[32mPOST /toggle/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:13:12,734 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:12] "GET / HTTP/1.1" 200 -
+2026-01-07 16:13:12,746 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:13:14,129 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:14] "[32mPOST /toggle/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:13:14,133 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:14] "GET / HTTP/1.1" 200 -
+2026-01-07 16:13:14,144 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:13:15,392 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:15] "GET /edit/9 HTTP/1.1" 200 -
+2026-01-07 16:13:17,992 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:17] "GET / HTTP/1.1" 200 -
+2026-01-07 16:13:18,005 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-01-07 16:13:19,462 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:19] "[32mPOST /delete/9 HTTP/1.1[0m" 302 -
+2026-01-07 16:13:19,466 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:19] "GET / HTTP/1.1" 200 -
+2026-01-07 16:13:19,477 - INFO - 127.0.0.1 - - [07/Jan/2026 16:13:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
