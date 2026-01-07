@@ -1569,3 +1569,59 @@ werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'images
 2025-11-03 16:32:25,235 - INFO - 127.0.0.1 - - [03/Nov/2025 16:32:25] "GET / HTTP/1.1" 200 -
 2025-11-03 16:32:25,297 - INFO - 127.0.0.1 - - [03/Nov/2025 16:32:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
 2025-11-03 16:32:25,314 - INFO - 127.0.0.1 - - [03/Nov/2025 16:32:25] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-11-04 20:27:29,687 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-04 20:27:29,687 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-04 20:27:29,689 - INFO -  * Restarting with stat
+2025-11-04 20:27:29,962 - WARNING -  * Debugger is active!
+2025-11-04 20:27:29,969 - INFO -  * Debugger PIN: 122-423-516
+2025-11-04 20:28:27,801 - INFO - 127.0.0.1 - - [04/Nov/2025 20:28:27] "GET / HTTP/1.1" 200 -
+2025-11-04 20:28:27,880 - INFO - 127.0.0.1 - - [04/Nov/2025 20:28:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-04 20:30:29,584 - INFO - 127.0.0.1 - - [04/Nov/2025 20:30:29] "GET / HTTP/1.1" 200 -
+2025-11-04 20:30:29,595 - INFO - 127.0.0.1 - - [04/Nov/2025 20:30:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-04 20:30:29,607 - INFO - 127.0.0.1 - - [04/Nov/2025 20:30:29] "GET /static/favicon.ico HTTP/1.1" 200 -
+2025-11-06 16:12:26,657 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-06 16:12:26,657 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 16:12:26,659 - INFO -  * Restarting with stat
+2025-11-06 16:12:26,952 - WARNING -  * Debugger is active!
+2025-11-06 16:12:26,959 - INFO -  * Debugger PIN: 122-423-516
+2025-11-06 16:12:32,320 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:32] "GET / HTTP/1.1" 200 -
+2025-11-06 16:12:32,402 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:12:37,033 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:37] "GET /edit/0 HTTP/1.1" 200 -
+2025-11-06 16:12:37,049 - ERROR - 404 error: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-11-06 16:12:37,057 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-06 16:12:48,026 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:48] "[32mPOST /edit/0 HTTP/1.1[0m" 302 -
+2025-11-06 16:12:48,028 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:48] "GET / HTTP/1.1" 200 -
+2025-11-06 16:12:48,043 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:12:57,593 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:57] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-06 16:12:57,596 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:57] "GET / HTTP/1.1" 200 -
+2025-11-06 16:12:57,606 - INFO - 127.0.0.1 - - [06/Nov/2025 16:12:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:13:01,466 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-06 16:13:01,468 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:01] "GET / HTTP/1.1" 200 -
+2025-11-06 16:13:01,477 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:13:15,444 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-06 16:13:15,447 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:15] "GET / HTTP/1.1" 200 -
+2025-11-06 16:13:15,457 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:13:23,114 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-06 16:13:23,117 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:23] "GET / HTTP/1.1" 200 -
+2025-11-06 16:13:23,130 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:13:27,153 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:27] "GET /edit/5 HTTP/1.1" 200 -
+2025-11-06 16:13:35,543 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:35] "[32mPOST /edit/5 HTTP/1.1[0m" 302 -
+2025-11-06 16:13:35,546 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:35] "GET / HTTP/1.1" 200 -
+2025-11-06 16:13:35,561 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:13:52,032 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:52] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-06 16:13:52,034 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:52] "GET / HTTP/1.1" 200 -
+2025-11-06 16:13:52,045 - INFO - 127.0.0.1 - - [06/Nov/2025 16:13:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:14:35,169 - INFO - 127.0.0.1 - - [06/Nov/2025 16:14:35] "[32mPOST /toggle/1 HTTP/1.1[0m" 302 -
+2025-11-06 16:14:35,173 - INFO - 127.0.0.1 - - [06/Nov/2025 16:14:35] "GET / HTTP/1.1" 200 -
+2025-11-06 16:14:35,183 - INFO - 127.0.0.1 - - [06/Nov/2025 16:14:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:14:35,863 - INFO - 127.0.0.1 - - [06/Nov/2025 16:14:35] "[32mPOST /toggle/0 HTTP/1.1[0m" 302 -
+2025-11-06 16:14:35,866 - INFO - 127.0.0.1 - - [06/Nov/2025 16:14:35] "GET / HTTP/1.1" 200 -
+2025-11-06 16:14:35,877 - INFO - 127.0.0.1 - - [06/Nov/2025 16:14:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 16:15:29,192 - INFO - 127.0.0.1 - - [06/Nov/2025 16:15:29] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-11-06 16:15:29,195 - INFO - 127.0.0.1 - - [06/Nov/2025 16:15:29] "GET / HTTP/1.1" 200 -
+2025-11-06 16:15:29,206 - INFO - 127.0.0.1 - - [06/Nov/2025 16:15:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-06 17:55:55,125 - INFO - 127.0.0.1 - - [06/Nov/2025 17:55:55] "GET /edit/0 HTTP/1.1" 200 -
+2025-11-06 17:55:56,470 - INFO - 127.0.0.1 - - [06/Nov/2025 17:55:56] "GET / HTTP/1.1" 200 -
+2025-11-06 17:55:56,494 - INFO - 127.0.0.1 - - [06/Nov/2025 17:55:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
