@@ -1,34 +1,31 @@
 from flask import Flask, render_template, request, redirect, url_for #C言語の#include的なやつ
-import json
-import os
 import log
 
 app = Flask(__name__) #Flaskアプリを作っているnameはファイル名的な
 
-TASK_FILE = 'tasks.json'
+### データベース設定
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+
+db = SQLAlchemy()
+migrate = Migrate()
+
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///app.db"
+app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
+
+db.init_app(app)
+migrate.init_app(app, db)
+
+class Task(db.Model):
+    __tablename__ = "tasks"
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(255), nullable=False)
+    done = db.Column(db.Boolean, nullable=False, default=False)
+
+###
 
 
-#タスクをjsonファイルから読み込む関数
-def load_tasks():
-    try:
-        if os.path.exists(TASK_FILE):
-            with open(TASK_FILE, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        return []
-    except Exception as e:
-        print(f"Error loading tasks: {e}")
-        return []
 
-#タスクをjsonファイルに保存する関数
-def save_tasks(tasks):
-    try:
-        with open(TASK_FILE, 'w', encoding='utf-8') as f:
-            json.dump(tasks, f, ensure_ascii=False, indent=4)
-    except Exception as e:
-        print(f"Error saving tasks: {e}")
-
-#初期化
-tasks = load_tasks()
 
 #htmlを作成&タスク追加
 @app.route('/', methods=['GET', 'POST']) #関数に対する設定'/'はトップページのURL、GET:ページを開く,POST:フォームから何かを送信されたとき
@@ -36,40 +33,46 @@ def index(): #関数の定義,トップページが開かれたときに呼ば�
     if request.method == "POST":
         task = request.form.get("task")
         if task:
-            tasks.append({"name": task, "done": False})
-            save_tasks(tasks)
+            new_task = Task(name=task, done=False)
+            db.session.add(new_task)
+            db.session.commit()
         return redirect(url_for("index"))
-    return render_template("index.html", tasks=tasks)
+    db_tasks = Task.query.order_by(Task.id.asc()).all()
+    return render_template("index.html", tasks=db_tasks)
 
 #チェックボックス状態切り替え
 @app.route('/toggle/<int:task_id>', methods=['POST'])
 def toggle(task_id):
-    if 0 <= task_id < len(tasks):
-        tasks[task_id]["done"] = not tasks[task_id]["done"]
-        save_tasks(tasks)
-        return redirect(url_for('index'))
+    task = Task.query.get(task_id)
+    if task is not None:
+        task.done = not task.done
+        db.session.commit()
+    return redirect(url_for('index'))
 
 #タスク削除
 @app.route('/delete/<int:task_id>', methods=['POST'])
 def delete(task_id):
-    if 0 <= task_id < len(tasks):
-        del tasks[task_id]
-        save_tasks(tasks)
+    task = Task.query.get(task_id)
+    if task is not None:
+        db.session.delete(task)
+        db.session.commit()
     return redirect(url_for('index'))
 
 #タスク編集
 @app.route('/edit/<int:task_id>', methods=['GET', 'POST'])
 def edit(task_id):
-    if 0 <= task_id < len(tasks):
-        if request.method == 'POST':
-            new_name = request.form.get('task')
-            if new_name:
-                tasks[task_id]['name'] = new_name
-                save_tasks(tasks)
-            return redirect(url_for('index'))
+    task = Task.query.get(task_id)
+    if task is None:
+        return redirect(url_for('index'))
+    
+    if request.method == 'POST':
+        new_name = request.form.get('task')
+        if new_name:
+            task.name = new_name
+            db.session.commit()
+        return redirect(url_for('index'))
         # GETリクエスト時は新しい編集画面を表示
-        return render_template('edit.html', task=tasks[task_id], task_id=task_id)
-    return redirect(url_for('index'))
+    return render_template('edit.html', task=task)
 
 #エラーハンドリング
 #404エラー

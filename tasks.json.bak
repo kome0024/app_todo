@@ -1,0 +1,34 @@
+[
+    {
+        "name": "paiza",
+        "done": true
+    },
+    {
+        "name": "タイピング",
+        "done": true
+    },
+    {
+        "name": "ロケットリーグ",
+        "done": false
+    },
+    {
+        "name": "アプリ開発",
+        "done": false
+    },
+    {
+        "name": "実験4レポート",
+        "done": false
+    },
+    {
+        "name": "実験3ノート",
+        "done": false
+    },
+    {
+        "name": "エントリーシート",
+        "done": false
+    },
+    {
+        "name": "メール確認",
+        "done": false
+    }
+]
