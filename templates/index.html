@@ -9,12 +9,12 @@
 <body>
     <h1>やる気出すナマケモノ</h1>
 
-    <p>ここにタスクリストが表示されます。</p>
     <form method="post">
         <input type="text" name="task" placeholder="タスクを入力" required maxlength="17">
         <button type="submit" class="add-btn">追加</button> 
     </form>
-
+    <p>ここにタスクリストが表示されます。</p>
+    
     <ol>
         {% for task in tasks %}
             <li>
