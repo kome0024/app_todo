@@ -6,6 +6,8 @@ app = Flask(__name__) #Flaskアプリを作っているnameはファイル名的
 ### データベース設定
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from flask_login import LoginManager, UserMixin, login_user, logout_user, login_required, current_user
+from werkzeug.security import generate_password_hash, check_password_hash
 
 db = SQLAlchemy()
 migrate = Migrate()
