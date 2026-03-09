@@ -7,8 +7,9 @@
     <link rel="icon" href="{{ url_for('static', filename='favicon_2.ico') }}">
 </head>
 <body>
+    <p>ログイン中: {{ current_user.email }}</p>
+    <a href="/logout">ログアウト</a>
     <h1>やる気出すナマケモノ</h1>
-
     <form method="post">
         <input type="text" name="task" placeholder="タスクを入力" required maxlength="17">
         <button type="submit" class="add-btn">追加</button> 
@@ -27,8 +28,7 @@
                     <button type="submit" class="delete-btn">削除</button>
                 </form>
                 
-                <a href="{{ url_for('edit', task_id=task.id) }}">編集
-                </a>
+                <a class="edit-btn" href="{{ url_for('edit', task_id=task.id) }}">編集</a>
             </li>
         {% endfor %}
     </ol>
